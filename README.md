@@ -1,49 +1,103 @@
-# Website Portofolio dengan Admin Panel
+# Website Blog Lifestyle - Inspired by Going Zero Waste
 
-Website portofolio modern dengan panel admin untuk mengelola konten secara dinamis.
+Website blog lifestyle modern dengan desain bersih dan minimalis, terinspirasi dari goingzerowaste.com. Dilengkapi dengan admin panel untuk mengelola konten secara dinamis.
 
-## Fitur
+## Struktur Website
 
-### Website Utama (index.html)
+Website ini memiliki 2 versi:
+
+### 1. Blog Lifestyle (Default - index.html)
+- Desain minimalis terinspirasi dari goingzerowaste.com
+- Fokus pada konten blog dan artikel
+- Admin panel: `admin.html`
+
+### 2. Portfolio Website (portfolio.html)
+- Website portofolio profesional
+- Showcase proyek dan karya
+- Admin panel: `portfolio-admin.html`
+
+## Fitur Blog (index.html)
+### Website Blog
+- **Clean & Minimalist Design**: Desain bersih dengan fokus pada konten
 - **Responsive Design**: Menggunakan Tailwind CSS untuk tampilan yang responsif
+- **Hero Section**: Profil author dengan foto dan tagline
+- **Featured Posts**: Showcase artikel unggulan
+- **Popular Posts**: Grid artikel populer
+- **Category Sections**: Artikel terorganisir (Beginners, Minimalism, New)
+- **Newsletter Subscription**: Form subscribe untuk updates
+- **About Section**: Profil lengkap author dengan quote
 - **Smooth Scrolling**: Navigasi yang halus antar section
-- **Hero Section**: Bagian pembuka dengan nama dan profesi
-- **About Section**: Informasi tentang diri dan keahlian
-- **Portfolio Section**: Showcase proyek-proyek
-- **Contact Section**: Form kontak untuk pengunjung
 - **Mobile Friendly**: Optimized untuk perangkat mobile
 
 ### Admin Panel (admin.html)
-- **Manajemen Profil**: Edit nama, judul hero, dan deskripsi
-- **Manajemen Portfolio**: Tambah, edit, dan hapus proyek
+- **Blog Profile Management**: Edit nama blog, author, tagline, dan deskripsi
+- **Post Management**: Tambah, lihat, dan hapus artikel
+- **Category System**: Organisasi artikel berdasarkan kategori
+- **Image Management**: Upload URL gambar untuk artikel
 - **Backup Data**: Download backup data dalam format JSON
 - **Reset Data**: Hapus semua data dan mulai dari awal
+- **Live Preview**: Lihat blog langsung dari admin panel
 - **Autentikasi Sederhana**: Password protection untuk admin
+
+## Fitur Portfolio (portfolio.html)
+
+### Website Portfolio
 
 ## Struktur File
 
 ```
-├── index.html              # Halaman utama website
-├── admin.html              # Panel admin
+├── index.html                  # Blog lifestyle (halaman utama)
+├── admin.html                  # Admin panel untuk blog
+├── portfolio.html              # Website portofolio
+├── portfolio-admin.html        # Admin panel untuk portfolio
 ├── assets/
 │   ├── css/
-│   │   ├── style.css       # Style untuk website utama
-│   │   └── admin.css       # Style untuk admin panel
+│   │   ├── blog.css           # Style untuk blog
+│   │   ├── style.css          # Style untuk portfolio
+│   │   └── admin.css          # Style untuk admin panel
 │   ├── js/
-│   │   ├── main.js         # JavaScript website utama
-│   │   └── admin.js        # JavaScript admin panel
-│   └── images/             # Folder untuk gambar
-└── README.md               # Dokumentasi
+│   │   ├── blog.js            # JavaScript blog
+│   │   ├── blog-admin.js      # JavaScript admin blog
+│   │   ├── main.js            # JavaScript portfolio
+│   │   └── admin.js           # JavaScript admin portfolio (jika ada)
+│   └── images/                # Folder untuk gambar
+├── README.md                   # Dokumentasi
+└── BLOG-README.md             # Dokumentasi khusus blog
 ```
 
 ## Cara Penggunaan
 
-### 1. Setup Awal
-1. Buka `index.html` di browser untuk melihat website
-2. Buka `admin.html` untuk mengakses panel admin
+### Blog Lifestyle (Default)
+
+#### 1. Setup Awal
+1. Buka `index.html` di browser untuk melihat blog
+2. Buka `admin.html` untuk mengakses panel admin blog
 3. Password default admin: `admin123`
 
-### 2. Mengelola Konten
+#### 2. Mengelola Blog
+1. **Edit Profil Blog**: 
+   - Masuk ke tab "Blog Profile" di admin panel
+   - Ubah nama blog, author, tagline, dan deskripsi
+   - Klik "Save Profile"
+
+2. **Menambah Artikel**:
+   - Masuk ke tab "Posts"
+   - Klik "Add New Post"
+   - Isi form dengan detail artikel
+   - Klik "Save Post"
+
+3. **Mengelola Artikel**:
+   - Di tab "Posts", lihat semua artikel
+   - Klik "Delete" untuk menghapus artikel
+
+### Portfolio Website
+
+#### 1. Akses Portfolio
+1. Buka `portfolio.html` di browser
+2. Buka `portfolio-admin.html` untuk admin panel
+3. Password default: `admin123`
+
+#### 2. Mengelola Portfolio
 1. **Edit Profil**: 
    - Masuk ke tab "Profil" di admin panel
    - Ubah nama, judul hero, subtitle, dan deskripsi

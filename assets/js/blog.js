@@ -215,25 +215,25 @@ class BlogApp {
     getDefaultFeaturedPosts() {
         return [
             {
-                title: '10 Tips Hidup Minimalis untuk Pemula',
-                excerpt: 'Mulai perjalanan minimalis Anda dengan tips sederhana yang mudah diterapkan dalam kehidupan sehari-hari.',
-                image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=400&h=300&fit=crop',
-                category: 'Minimalism',
-                date: 'March 1, 2024'
+                title: 'Website E-commerce Modern',
+                excerpt: 'Platform jual beli online dengan fitur keranjang, pembayaran, dan dashboard admin yang lengkap.',
+                image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=300&fit=crop',
+                category: 'Web Development',
+                date: 'March 2024'
             },
             {
-                title: 'Panduan Lengkap Zero Waste Living',
-                excerpt: 'Pelajari cara mengurangi sampah dan hidup lebih berkelanjutan dengan panduan praktis ini.',
-                image: 'https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=400&h=300&fit=crop',
-                category: 'Lifestyle',
-                date: 'February 28, 2024'
+                title: 'Aplikasi Mobile React Native',
+                excerpt: 'Aplikasi mobile cross-platform untuk manajemen tugas dengan sinkronisasi cloud real-time.',
+                image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=400&h=300&fit=crop',
+                category: 'Mobile App',
+                date: 'February 2024'
             },
             {
-                title: 'Resep Makanan Sehat & Ramah Lingkungan',
-                excerpt: 'Kumpulan resep lezat yang baik untuk kesehatan dan planet kita.',
-                image: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop',
-                category: 'Food',
-                date: 'February 25, 2024'
+                title: 'Dashboard Analytics',
+                excerpt: 'Dashboard real-time untuk monitoring data bisnis dengan visualisasi chart interaktif dan reporting.',
+                image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop',
+                category: 'Dashboard',
+                date: 'January 2024'
             }
         ];
     }

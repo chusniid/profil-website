@@ -163,7 +163,7 @@ class BlogAdmin {
         
         this.hidePostForm();
         this.loadPostsList();
-        this.showAlert('Post added successfully!', 'success');
+        this.showAlert('Project added successfully!', 'success');
     }
 
     showPostForm() {
@@ -189,7 +189,7 @@ class BlogAdmin {
                 postsList.appendChild(postItem);
             });
         } else {
-            postsList.innerHTML = '<p class="text-gray-500">No posts yet. Add your first post!</p>';
+            postsList.innerHTML = '<p class="text-gray-500">No projects yet. Add your first project!</p>';
         }
     }
 
@@ -220,7 +220,7 @@ class BlogAdmin {
     }
 
     deletePost(id) {
-        if (!confirm('Are you sure you want to delete this post?')) {
+        if (!confirm('Are you sure you want to delete this project?')) {
             return;
         }
 
@@ -229,7 +229,7 @@ class BlogAdmin {
         this.saveData(data);
         
         this.loadPostsList();
-        this.showAlert('Post deleted successfully!', 'success');
+        this.showAlert('Project deleted successfully!', 'success');
     }
 
     openPreview() {

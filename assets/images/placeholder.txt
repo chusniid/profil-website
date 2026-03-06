@@ -1,0 +1,9 @@
+Folder ini untuk menyimpan gambar-gambar website portofolio.
+
+Contoh file yang bisa ditambahkan:
+- profile.jpg (foto profil)
+- project1.jpg (screenshot proyek 1)
+- project2.jpg (screenshot proyek 2)
+- logo.png (logo website)
+
+Pastikan gambar memiliki ukuran yang sesuai untuk performa website yang optimal.
